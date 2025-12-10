@@ -7,8 +7,8 @@ pipeline {
         DOCKER_CREDS = "docker-hub-creds"      // Docker Hub 자격증명 ID
         SSH_CREDS    = "app-ssh-key"           // app1/app2 SSH 키 ID
 
-        APP1_HOST    = "ec2-user@<app1-ip>"    // 나중에 실제 IP로 교체
-        APP2_HOST    = "ec2-user@<app2-ip>"
+        APP1_HOST    = "ec2-user@43.201.71.39"    // 나중에 실제 IP로 교체
+        APP2_HOST    = "ec2-user@43.200.179.18"
     }
 
     stages {
