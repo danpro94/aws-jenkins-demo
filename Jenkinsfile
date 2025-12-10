@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-id/aws-jenkins-demo"
+        DOCKER_IMAGE = "danpro94/aws-jenkins-demo"
         DOCKER_TAG   = "latest"
         DOCKER_CREDS = "docker-hub-creds"      // Docker Hub 자격증명 ID
         SSH_CREDS    = "app-ssh-key"           // app1/app2 SSH 키 ID
